@@ -1,0 +1,203 @@
+.container-fluid {
+  height: 3180px;
+  width: 800px;
+  /* border: 2px solid black; */
+}
+.row-container {
+  text-align: center;
+  background-image: url(./front.webp);
+  color: white;
+  margin-top: 20px;
+}
+.navbar {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+}
+label.logo {
+  line-height: 80px;
+  padding: 0 50px;
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.logo-1 {
+  width: 80px;
+  height: 60px;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-style: oblique;
+  justify-content: center;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: end;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 5px 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a.active,
+a:hover {
+  background: none;
+  color: rgb(196, 217, 235);
+  transition: 5s 2222222222222;
+}
+
+.row img {
+  margin-top: 20px;
+  position: relative;
+  height: 300px;
+  width: 800px;
+  margin-bottom: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.we {
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col-md-8 {
+  /* background-color: white; */
+  color: blue;
+  text-align: center;
+}
+#testi {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+}
+#last {
+  background-color: rgb(36, 26, 2);
+  height: 150px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  justify-content: center;
+}
+.col-md-6 .book {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  height: 25px;
+  justify-content: center;
+  text-align: center;
+}
+.email-address {
+  border: 2px solid gold;
+  color: white;
+  background-color: rgb(36, 26, 2);
+  flex: 1;
+  width: 108px;
+  height: 25px;
+  margin-right: 20px;
+}
+.col-md-3 {
+  padding: 20px;
+}
+#newsletter p {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+}
+.house {
+  /* border: 2px solid black; */
+  background-image: url(./hotel\ bar.webp);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.row-1 {
+  /* border: 2px solid blue; */
+  width: 650px;
+  height: 310px;
+}
+.row-2 {
+  /* border: 2px solid purple; */
+  width: 600px;
+  height: 33px;
+}
+.rest {
+  background-color: white;
+  color: blue;
+  margin-left: 190px;
+  font-size: 75px;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.house-1 {
+  background-image: url(../image\ pool.png);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.house-2 {
+  background-image: url(./reception.png);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.house-3 {
+  background-image: url(./hotel-fax.png);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.house-4 {
+  background-image: url(../rooms/conference_files/architecture-2561129__340.webp);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.house-5 {
+  background-image: url(./gym.jpg);
+  height: 342px;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+
+.bi {
+  margin-right: 8px;
+  font-size: 10px;
+  height: 10px;
+  width: 20px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 2px;
+  background-image: linear-gradient(rgb(36, 26, 2));
+  
+}

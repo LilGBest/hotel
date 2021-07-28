@@ -1,0 +1,177 @@
+#fluid {
+  /* border: 2px solid black; */
+  width: 900px;
+  height: 1560px;
+  justify-content: center;
+}
+.row-container {
+  background-image: url(../las-vegas-png.jpg);
+  margin-top: 20px;
+  width: 780px;
+  height: 400px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  margin-left: 40px;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+}
+label.logo {
+  line-height: 80px;
+  padding: 0 50px;
+
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.logo-1 {
+  width: 80px;
+  height: 60px;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-style: oblique;
+  justify-content: center;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: end;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 5px 5px;
+  text-decoration: none;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a.active,
+a:hover {
+  background: none;
+  color: rgb(196, 217, 235);
+  transition: 5s 2222222222222;
+}
+#first {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.welcome {
+  font-weight: lighter;
+  font-size: medium;
+}
+.luxury {
+  font-weight: bold;
+}
+
+#breakfast {
+  text-align: center;
+  font-weight: normal;
+}
+img {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  margin-right: 40px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.content {
+  width: 500px;
+  justify-content: center;
+  margin: 30px 20px;
+}
+.content p {
+  text-align: center;
+}
+.content h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#rooms {
+  padding-right: 20px;
+  justify-content: center;
+}
+#beach {
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+navbar-expand-lg {
+  color: white;
+}
+
+.btn btn-book now {
+  color: white;
+}
+
+#testi .col-md-8 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+  color: blue;
+  text-align: center;
+}
+#last {
+  background-color: rgb(36, 26, 2);
+  height: 150px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+button {
+  height: 25px;
+  justify-content: center;
+  text-align: center;
+}
+.email-address {
+  border: 2px solid gold;
+  color: white;
+  background-color: rgb(36, 26, 2);
+  flex: 1;
+  width: 120px;
+  height: 27px;
+  margin-right: 20px;
+
+  margin-bottom: 30px;
+}
+.terms {
+  text-align: center;
+  padding: 0;
+}
+
+.bi {
+  margin-right: 8px;
+  font-size: 10px;
+  height: 16px;
+  width: 20px;
+  text-align: center;
+  border-radius: 2px;
+  background-image: linear-gradient(rgb(36, 26, 2));
+}
+.father {
+  padding-top: 20px;
+}
